@@ -1,4 +1,4 @@
-from web_scraping.get_data import (Get_Data_From_Bocaodientu,
+from get_data import (Get_Data_From_Bocaodientu,
                                Get_Data_From_Masothue_Version_One,
                                Get_Data_From_Masothue_Version_Two,
                                Get_Data_From_Thuvienphapluat,
@@ -45,10 +45,10 @@ def run_task_4():
     get_data.Get_Data_TPHCM()
 
 
-# run_task_1()
+run_task_1()
 run_task_2()
-# run_task_3()
-# run_task_4()
+run_task_3()
+run_task_4()
 
 end_time = datetime.now()
 print('Duration: {}'.format(end_time - start_time))
